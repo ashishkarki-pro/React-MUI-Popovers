@@ -1,0 +1,34 @@
+$popover-base-color: aqua;
+
+.PopoverContent {
+  background-color: $popover-base-color;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border: 1px solid black;
+
+  position: relative;
+
+  :after {
+    content: '';
+    position: absolute;
+    right: 45%;
+    top: -9px;
+    border-top: none;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid $popover-base-color;
+  }
+
+  .title {
+    text-transform: uppercase;
+    margin: 0.4rem auto;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    .titleLabel {
+      margin-left: 0.5rem;
+    }
+  }
+}
