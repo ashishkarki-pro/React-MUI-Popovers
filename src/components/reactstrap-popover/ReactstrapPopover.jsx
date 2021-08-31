@@ -20,6 +20,7 @@ const ReactstrapPopover = () => {
         isOpen={popoverOpen}
         target="mypopover"
         toggle={togglePopover}
+        hideArrow={false}
       >
         <PopoverHeader>This is popover title</PopoverHeader>
         <PopoverBody>This is simple popover content</PopoverBody>
