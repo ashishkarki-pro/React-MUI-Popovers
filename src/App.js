@@ -1,6 +1,7 @@
 import './App.css'
 import TinyPopover from './components/tinyPopover/TinyPopover'
 import ReactstrapPopover from './components/reactstrap-popover/ReactstrapPopover'
+import ReactPopperExample from './components/reactPopperLib/ReactPopperExample'
 
 function App() {
   return (
@@ -10,7 +11,10 @@ function App() {
       <TinyPopover />
 
       {/* Reactstrap library Popover */}
-      <ReactstrapPopover />
+      {/* <ReactstrapPopover /> */}
+
+      {/* React-popper library */}
+      {/* <ReactPopperExample /> */}
     </div>
   )
 }
